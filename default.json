@@ -4,5 +4,8 @@
     "config:best-practices",
     ":automergeAll"
   ],
-  "platformAutomerge": false
+  "platformAutomerge": false,
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
