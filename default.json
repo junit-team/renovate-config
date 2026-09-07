@@ -7,5 +7,11 @@
   "platformAutomerge": false,
   "lockFileMaintenance": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["org.eclipse.platform:**"],
+      "minimumReleaseAge": "7 days"
+    }
+  ]
 }
