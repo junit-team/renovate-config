@@ -10,6 +10,11 @@
   },
   "packageRules": [
     {
+      "matchManagers": ["github-actions"],
+      "matchDepNames": ["java-jdk"],
+      "enabled": false
+    },
+    {
       "matchPackageNames": ["org.eclipse.platform:**"],
       "minimumReleaseAge": "7 days"
     }
